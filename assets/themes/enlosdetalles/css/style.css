@@ -1,0 +1,72 @@
+@CHARSET "UTF-8";
+
+body {
+    font-family: Frutiger,"Frutiger Linotype",Univers,Calibri,"Gill Sans","Gill Sans MT","Myriad Pro",Myriad,"DejaVu Sans Condensed","Liberation Sans","Nimbus Sans L",Tahoma,Geneva,"Helvetica Neue",Helvetica,Arial,"MS PGothic",Osaka,Sans-Serif;
+    font-size: 1em;
+    line-height: 1.625em;
+}
+
+
+a:link {
+    color: #5588AA;
+    text-decoration: none;
+}
+a:visited {
+    color: #5588AA;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+a img {
+    border-width: 0;
+}
+
+#page {
+    font-family: 'Georgia',serif;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+
+#footer {
+    background-color: rgba(21, 25, 25, 0.8);
+    color: rgba(250, 250, 250, 0.8);
+    padding-bottom: 1.625em;
+}
+
+.profile-img {
+    float: left;
+    margin: 0 5px 5px 0;
+}
+
+.licence{
+	float: right;
+}
+
+
+p code, li code {
+    background-clip: padding-box;
+    background-color: #F8F8F8;
+    border: 1px solid #CCCCCC;
+    border-radius: 3px 3px 3px 3px;
+    margin: 0 2px;
+    padding: 2px 5px;
+    white-space: nowrap;
+}
+
+pre {
+    margin-bottom: 1.625em;
+}
+
+pre {
+    background-color: #393939;
+    border: 1px solid #393939;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3) inset, 0 1px 0 rgba(255, 255, 255, 0.6);
+    color: #F2F2F2;
+    font-family: "Bitstream Vera Sans Mono","Courier New",Courier,monospace;
+    margin-left: 0;
+    margin-right: 0;
+    overflow: auto;
+    padding: 1.625em;
+}
