@@ -30,34 +30,29 @@ q{
 	font-style:italic;
 }
 
-#page {
-    font-family: 'Georgia',serif;
-    font-size: 18px;
-    line-height: 26px;
+
+#header{
+	padding:10px 0;
 }
 
-#page-title{
-	margin-top:30px
+#header .title{
+	margin-top:15px
 }
 
-#page-title h1{
+#header .title h1{
 	font-size: 55px;
-	margin-bottom:12px;
+	margin-bottom:12px; 
 }
 
-#page-title code{
+#header .title code{
 	font-size:1em;
 }	
 
-#page-title p{
-	margin:0;
-}	
-
-.entry-title{
+.post-title, .page-title {
 	margin:5px 0;
 }
 
-.entry-info{
+.post-info{
     color: #666666;
     margin: 10px;
     font-size: 0.85em;

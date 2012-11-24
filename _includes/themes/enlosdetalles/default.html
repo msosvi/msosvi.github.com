@@ -1,8 +1,5 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7 ie" lang="en"> <![endif]-->
-<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8 ie" lang="en"> <![endif]-->
-<!--[if IE 8]>    <html class="no-js lt-ie9 ie" lang="en"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<html> 
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width,initial-scale=1">
@@ -14,20 +11,17 @@
 	<link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Droid+Serif">
 	<link href="http://feeds.feedburner.com/{{ site.author.feedbaname }}" rel="alternate" title="{{ page.title }}" type="application/atom+xml">
 </head>
+
 <body>
 
-<div id="page">
-	<div id="header">
+<div id="header">
 		<div class="grid">
- 			<div class="col-2-12">
-				<p id="logo">
-					<a href="http://www.enlosdetalles.net/">
-						<img src="{{ ASSET_PATH }}/img/logo.png" 
-					 		alt="Logo En Los Detalles...">
-					</a>
-				</p>
+ 			<div class="logo col-2-12">
+				<a href="http://www.enlosdetalles.net/">
+						<img src="{{ ASSET_PATH }}/img/logo.png"  alt="Logo En Los Detalles...">
+				</a>
 			</div>
-			<div id="page-title" class="col-10-12">
+			<div class="title col-10-12">
 				<h1 >En Los Detalles...</h1>
 				<p><code>-m "Un blog sobre desarrollo de software y demás tics."</code></p>
 			</div>
@@ -62,11 +56,9 @@
 			<div class="col-1-1">
 				<p class="licence">	Powered by <a href="https://github.com/mojombo/jekyll">Jekyll</a>.</p>
 			</div>
-		
-		
 		</div>
 	</div>
-</div><!-- page -->
+
 
   {% include JB/analytics %}
 </body>
