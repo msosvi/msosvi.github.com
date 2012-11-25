@@ -35,6 +35,12 @@ q{
 	padding:10px 0;
 }
 
+
+#header a {
+	color:black;
+	text-decoration: none;
+}
+
 #header .title{
 	margin-top:15px
 }
@@ -51,6 +57,11 @@ q{
 .post-title, .page-title {
 	margin:5px 0;
 }
+
+.post-title a , .page-title a{
+	color:black;
+}
+
 
 .post-info{
     color: #666666;
