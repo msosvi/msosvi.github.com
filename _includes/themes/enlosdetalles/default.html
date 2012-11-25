@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width,initial-scale=1">
-	<title>{{ page.title }}</title>
+	<title>En Los Detalles - {{ page.title }}</title>
 	<meta name="author" content="{{ site.author.name }}">
 	<link href='{{ ASSET_PATH }}/css/style.css' rel="stylesheet" media="all">
 	<link href='{{ ASSET_PATH }}/css/mal-style.css' rel="stylesheet" media="all">
@@ -15,15 +15,16 @@
 <body>
 
 <div id="header">
-		<div class="grid">
+	 
+		<div class="grid">	
  			<div class="logo col-2-12">
-				<a href="http://www.enlosdetalles.net/">
-						<img src="{{ ASSET_PATH }}/img/logo.png"  alt="Logo En Los Detalles...">
-				</a>
+ 				<a href="{{ BASE_PATH }}">
+					<img src="{{ ASSET_PATH }}/img/logo.png"  alt="Logo En Los Detalles..." />
+				</a>	
 			</div>
 			<div class="title col-10-12">
-				<h1 >En Los Detalles...</h1>
-				<p><code>-m "Un blog sobre desarrollo de software y demás tics."</code></p>
+					<h1 ><a href="{{ BASE_PATH }}">En Los Detalles...</a></h1>
+					<p><code>-m "Un blog sobre desarrollo de software y demás tics."</code></p>
 			</div>
 		</div>
 	</div>
