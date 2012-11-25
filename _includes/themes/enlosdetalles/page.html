@@ -1,8 +1,9 @@
 <div id="page">
 		<div class="grid">
 			<div class="col-1-1">
-				
+				{% if page.title %}
 				<h1 class="page-title">{{ page.title }}</h1>
+				{% endif %}
 				
 				<div class="page-content">
 					{{ content }}
@@ -14,6 +15,8 @@
 			<div class="grid">
 				<div class="col-1-1">
 					<p class="backToTop">
+						<a href="{{ site.JB.archive_path }}">Archivo</a>
+						<span class="pipe">|</span>
 						<a href="#page">Subir</a>
 					</p>
 				</div>
