@@ -7,9 +7,7 @@ title:
 <div class="recent_posts">
   {% for post in site.posts limit:site.max_posts_in_index %}
   
-	<div id="post" >
-		<div class="grid">
-			
+	<div class="recent_post" >
 				<h1 class="post-title"><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></h1>
 				
 				<p class="post-info">
@@ -30,9 +28,7 @@ title:
 				<div class="post-content">
 					{{ post.content }}
 				</div><!-- post-content -->
-			
-			
-		</div>	 
+				 
 	</div><!-- post -->  
       
   {% endfor %}
