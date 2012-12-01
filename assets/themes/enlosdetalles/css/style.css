@@ -3,7 +3,6 @@
 body {
     font-family: 'Georgia',serif;
     font-size: 18px;
-    line-height: 26px;
 }
 
 
@@ -22,6 +21,10 @@ a img {
     border-width: 0;
 }
 
+p{
+	line-height: 26px;
+}
+
 h1, h2, h3, h4, h5 , h6 {
 	font-family: 'Droid Serif','Georgia';
 }
@@ -32,7 +35,7 @@ q{
 
 
 #header{
-	padding:10px 0;
+	padding:10px 20px;
 }
 
 
@@ -42,17 +45,22 @@ q{
 }
 
 #header .title{
-	margin-top:15px
+	margin-top:-10px;
 }
 
 #header .title h1{
 	font-size: 55px;
-	margin-bottom:12px; 
+	margin-bottom: -20px; 
 }
 
 #header .title code{
 	font-size:1em;
-}	
+}
+
+#post{
+	padding: 0 20px;
+}
+
 
 .post-title, .page-title {
 	margin:5px 0;
@@ -73,8 +81,7 @@ q{
 #foot {
     background-color: #ffebeb; /*#b27373*/ 
     color: #3E3636;
-    padding-top:0.5em;
-    padding-bottom: 0.5em;
+    padding:0.5em 20px;    
 }
 
 .pagination {
@@ -88,8 +95,10 @@ q{
 
 #footer {
     background-color: #3e3636;/*rgba(21, 25, 25, 0.8)*/;
-    color: rgba(250, 250, 250, 0.8);
+    color: rgb(250, 250, 250);
     padding-bottom: 1.625em;
+    padding-left:20px;
+    padding-right:20px;
 }
 
 .profile-img {
@@ -103,7 +112,7 @@ q{
 }
 
 
-p code, li code {
+p code {
     background-clip: padding-box;
     background-color: #F8F8F8;
     border: 1px solid #CCCCCC;
@@ -114,18 +123,30 @@ p code, li code {
     font-size: 0.8em;
 }
 
-pre {
-    margin-bottom: 1.625em;
-}
 
 pre {
-    background-color: #393939;
-    border: 1px solid #393939;
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3) inset, 0 1px 0 rgba(255, 255, 255, 0.6);
-    color: #F2F2F2;
-    font-family: "Bitstream Vera Sans Mono","Courier New",Courier,monospace;
+    background-clip: padding-box;
+    background-color: #F8F8F8;
+    border: 1px solid #CCCCCC;
+    border-radius: 3px 3px 3px 3px;
     margin-left: 0;
     margin-right: 0;
+    margin-bottom: 1.625em;
     overflow: auto;
-    padding: 1.625em;
+    padding: 1em; 
+    font-family: "Bitstream Vera Sans Mono","Courier New",Courier,monospace;
+    font-size: 16px;
+	line-height: 23px;
+}
+
+
+.gist .gist-file {
+    border: 1px solid #CCCCCC;
+    border-radius: 3px 3px 3px 3px;
+}
+
+.gist .gist-data {
+	background-clip: padding-box;
+	background-color: #F8F8F8 !important;
+	padding: 1em;
 }
