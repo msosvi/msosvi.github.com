@@ -6,9 +6,7 @@
 				
 			<p class="post-info">
 				<span class="post-date-publish">
-					Publicado el <span class="day">{{ page.date | date: '%d' }}</span>
-					de <span class="month"><abbr>{{ page.date | date: '%B' }}</abbr></span> 
-					de <span class="year">{{ page.date | date: '%Y' }}.</span>   
+					Publicado el {{ page.date | date: '%d/%m/%Y' }}   
 				</span>
 				<span> - </span>
 				<span class="post-tags">

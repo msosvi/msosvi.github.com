@@ -12,9 +12,7 @@ title:
 				
 				<p class="post-info">
 					<span class="post-date-publish">
-						Publicado el <span class="day">{{ post.date | date: '%d' }}</span>
-						de <span class="month"><abbr>{{ post.date | date: '%B' }}</abbr></span> 
-						de <span class="year">{{ post.date | date: '%Y' }}.</span>   
+						Publicado el {{ post.date | date: '%d/%m/%Y' }}   
 					</span>
 					<span> - </span>
 					<span class="post-tags">
