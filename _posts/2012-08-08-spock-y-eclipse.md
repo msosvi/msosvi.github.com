@@ -9,6 +9,8 @@ tags:
 ---
 
 Para que [Spock](http://spockframework.org/) quede bien configurado en Eclipse no hay que saltarse el siguiente paso de la [configuración](http://code.google.com/p/spock/wiki/GettingStarted#Eclipse): 
+
+>Enable the following option: Preferences->Groovy->Use monospace font for JUnit. This is important for Spock's condition output to be aligned correctly.
  
 Sin habilitar esta opción las salidas de las condiciones de Spock no se ven muy bien:
  
