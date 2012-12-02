@@ -57,7 +57,7 @@ q{
 	font-size:1em;
 }
 
-#post{
+#post, #page{
 	padding: 0 20px;
 }
 
