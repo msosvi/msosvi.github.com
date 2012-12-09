@@ -6,6 +6,5 @@ tags:
  - Citas
 ---
 
->"Sincerely, The Compile Script"
-Despedida de un correo electrónico recibido del 
-[Google AI Challenge](http://ai-contest.com/index.php).
+>###"Sincerely, The Compile Script"###
+<p class="autor-cita">Despedida de un correo electrónico recibido del <a href="http://ai-contest.com/index.php">Google AI Challenge</a>.</p>

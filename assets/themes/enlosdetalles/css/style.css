@@ -33,7 +33,6 @@ q{
 	font-style:italic;
 }
 
-
 #header{
 	padding:10px 20px;
 }
@@ -61,7 +60,6 @@ q{
 	padding: 0 20px;
 }
 
-
 .post-title, .page-title {
 	margin:5px 0;
 }
@@ -77,6 +75,17 @@ q{
     font-size: 0.85em;
 }
 
+.post-content blockquote{
+	font-style:italic;
+	padding-left:10px;
+	border-left:2px solid #666666;
+	color:#3E3636;
+}
+
+.post-content .autor-cita{
+	text-align: right;
+	color:#3E3636;
+}
 
 #foot {
     background-color: #ffebeb; /*#b27373*/ 
