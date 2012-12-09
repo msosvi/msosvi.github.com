@@ -2,7 +2,6 @@
 layout: post
 title: "Servidor Subversion y Trac (I). Instalación de Ubuntu Server."
 date: 2010-08-22
-comments: false
 tags:
  - VMWare
  - GNU/Linux

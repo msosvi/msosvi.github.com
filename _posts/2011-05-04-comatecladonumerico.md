@@ -2,7 +2,6 @@
 layout: post
 title: "Comas con la tecla del punto del teclado numérico"
 date: 2011-05-04
-comments: false
 tags:
  - JavaScript
 ---

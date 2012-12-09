@@ -2,7 +2,6 @@
 layout: post
 title: "Tamaño Máximo del Contenido de la Solicitud HTTP en Lotus Domino"
 date: 2009-10-04
-comments: false
 tags:
  - Lotus Domino
  - iNotes

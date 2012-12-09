@@ -2,7 +2,6 @@
 layout: post
 title: "Logging en EclipseLink usando SLF4J"
 date: 2011-10-30
-comments: false
 tags:
  - SLF4J
  - EclipseLink

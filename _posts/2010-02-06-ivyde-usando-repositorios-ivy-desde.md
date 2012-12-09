@@ -2,7 +2,6 @@
 layout: post
 title: "IvyDE, usando repositorios Ivy desde Eclipse"
 date: 2010-02-06
-comments: false
 tags:
  - Eclipse
  - IvyDE

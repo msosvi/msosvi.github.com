@@ -2,7 +2,6 @@
 layout: post
 title: "Manifiesto “En defensa de los derechos fundamentales en Internet”"
 date: 2009-12-11
-comments: false
 tags:
  - Manifiesto
  - Internet

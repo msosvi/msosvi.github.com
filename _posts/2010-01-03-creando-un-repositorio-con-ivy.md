@@ -2,7 +2,6 @@
 layout: post
 title: "Creando un repositorio con Ivy"
 date: 2010-01-03
-comments: false
 tags:
  - Ant
  - Ivy

@@ -2,7 +2,6 @@
 layout: post
 title: "Llamando subflows con Spring Web Flow"
 date: 2010-06-10
-comments: false
 tags:
  - Spring Web Flow
  - Spring

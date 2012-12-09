@@ -2,7 +2,6 @@
 layout: post
 title: "Servidor Subversion y Trac (y III). Instalación de Trac."
 date: 2010-10-17
-comments: false
 tags:
  - Subversion
  - Trac

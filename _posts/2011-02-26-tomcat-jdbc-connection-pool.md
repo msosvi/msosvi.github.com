@@ -2,7 +2,6 @@
 layout: post
 title: "The Tomcat JDBC Connection Pool"
 date: 2011-02-26
-comments: false
 tags:
  - Tomcat
 ---

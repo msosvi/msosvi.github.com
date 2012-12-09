@@ -2,7 +2,6 @@
 layout: post
 title: "JasperReports corta el texto al crear informes en formato Excel"
 date: 2010-12-11
-comments: false
 tags:
  - JasperReports
 ---

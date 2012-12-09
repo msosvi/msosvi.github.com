@@ -2,9 +2,8 @@
 layout: post
 title: "Probando GitHub y Gist"
 date: 2011-09-20
-comments: false
 tags:
- - git
+ - Git
 ---
 
 Está casi todo inventado, estaba probando [GitHub](https://github.com/) para ir subiendo el código de ejemplo que uso en el blog, pero ya lo tienen más que pensado y han creado [Gist](https://gist.github.com/).

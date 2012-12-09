@@ -2,7 +2,6 @@
 layout: post
 title: "Spock y Eclipse"
 date: 2012-08-08
-comments: false
 tags:
  - Eclipse
  - Spock

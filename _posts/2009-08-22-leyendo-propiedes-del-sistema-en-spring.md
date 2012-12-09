@@ -2,7 +2,6 @@
 layout: post
 title: "Leyendo Propiedades del Sistema en Spring"
 date: 2009-08-22
-comments: false
 tags:
  - Spring
 ---

@@ -2,7 +2,6 @@
 layout: post
 title: "Administración remota"
 date: 2010-04-26
-comments: false
 tags:
  - Citas
 ---

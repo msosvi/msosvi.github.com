@@ -2,7 +2,6 @@
 layout: post
 title: "Servidor Subversion y Trac (II). Instalación de Subversion."
 date: 2010-09-08
-comments: false
 tags:
  - Subversion
  - GNU/Linux

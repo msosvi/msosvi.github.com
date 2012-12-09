@@ -2,10 +2,8 @@
 layout: post
 title: "Opción de depuracion en Bash"
 date: 2009-12-27
-comments: false
 tags:
- - shell
- - script
+ - Shell	
  - Bash
 ---
 

@@ -2,7 +2,6 @@
 layout: post
 title: "Como borrar un componente de una vista JSF."
 date: 2010-03-21
-comments: false
 tags:
  - JSF
 ---

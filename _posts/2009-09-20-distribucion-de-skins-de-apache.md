@@ -2,7 +2,6 @@
 layout: post
 title: "Distribución de Skins de Apache Trinidad en Ficheros JAR"
 date: 2009-09-20
-comments: false
 tags:
  - Apache Trinidad
  - JSF

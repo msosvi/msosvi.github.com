@@ -2,10 +2,9 @@
 layout: post
 title: "Usando Rsync y Git para Hacer Copias de Seguridad."
 date: 2009-12-12
-comments: false
 tags:
- - copias de seguridad
- - git
+ - Shell	
+ - Git
  - rsync
 ---
 

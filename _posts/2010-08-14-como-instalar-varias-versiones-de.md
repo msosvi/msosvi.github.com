@@ -2,7 +2,6 @@
 layout: post
 title: "Cómo instalar varias versiones de Firefox en Ubuntu"
 date: 2010-08-14
-comments: false
 tags:
  - VMWare
  - GNU/Linux

@@ -2,11 +2,8 @@
 layout: post
 title: "Actualización del firmware del Papyre."
 date: 2009-10-18
-comments: false
 tags:
- - Papyre
- - eBooks
- - epub
+ - Gagets
 ---
 
 Hace unos días actualicé el firmware de mi Papyre a la versiónV2.10-20090806.

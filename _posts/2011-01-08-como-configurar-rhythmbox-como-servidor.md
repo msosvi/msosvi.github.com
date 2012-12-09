@@ -2,9 +2,9 @@
 layout: post
 title: "Cómo configurar RhythmBox como servidor UPnP/DLNA"
 date: 2011-01-08
-comments: false
 tags:
  - GNU/Linux
+ - RhythmBox
 ---
 
 Instalamos el plugin de RhythmBox para compartir nuestra música con UPnP/DLNA usando el siguiente comando:

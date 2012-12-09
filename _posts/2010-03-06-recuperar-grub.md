@@ -2,8 +2,8 @@
 layout: post
 title: "Recuperar Grub"
 date: 2010-03-06
-comments: false
 tags:
+ - Shell
  - Grub
  - GNU/Linux
 ---

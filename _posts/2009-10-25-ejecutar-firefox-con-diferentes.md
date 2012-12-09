@@ -2,7 +2,6 @@
 layout: post
 title: "Ejecutar Firefox con Diferentes Perfiles"
 date: 2009-10-25
-comments: false
 tags:
  - Firefox
 ---

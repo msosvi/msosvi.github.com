@@ -2,7 +2,6 @@
 layout: post
 title: "Último día del mes con Joda"
 date: 2010-11-26
-comments: false
 tags:
  - Java
 ---

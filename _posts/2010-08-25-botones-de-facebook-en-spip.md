@@ -2,7 +2,6 @@
 layout: post
 title: "Botones de Facebook en Spip"
 date: 2010-08-25
-comments: false
 tags:
  - Facebook
  - Spip

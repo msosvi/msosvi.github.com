@@ -2,7 +2,6 @@
 layout: post
 title: "Modificando ficheros de configuración con Ant y XMLTask"
 date: 2009-09-08
-comments: false
 tags:
  - Ant
  - XMLTask

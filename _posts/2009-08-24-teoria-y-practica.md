@@ -2,7 +2,6 @@
 layout: post
 title: "Teoría y Práctica"
 date: 2009-08-24
-comments: false
 tags:
  - Citas
 ---

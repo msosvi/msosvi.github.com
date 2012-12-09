@@ -2,9 +2,7 @@
 layout: post
 title: "Educación Artificial"
 date: 2010-09-13
-comments: false
 tags:
- - Inteligencia Artificial
  - Citas
 ---
 

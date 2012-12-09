@@ -2,7 +2,6 @@
 layout: post
 title: "Haciendo a Ivy compatible con las versiones OSGi."
 date: 2011-01-17
-comments: false
 tags:
  - Ivy
 ---

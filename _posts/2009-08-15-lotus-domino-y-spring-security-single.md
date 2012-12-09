@@ -2,7 +2,6 @@
 layout: post
 title: "Lotus Domino y Spring Security - Single Sign On (SSO)"
 date: 2009-08-15
-comments: false
 tags:
  - Lotus Domino
  - Spring

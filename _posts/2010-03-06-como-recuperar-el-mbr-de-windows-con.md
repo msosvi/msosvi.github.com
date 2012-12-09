@@ -2,10 +2,9 @@
 layout: post
 title: "Como recuperar el MBR de Windows con GNU/Linux"
 date: 2010-03-06
-comments: false
 tags:
- - MBR
  - GNU/Linux
+ - Windows
 ---
 
 Hay varias maneras de recuperar el MBR de Windows con un Live CD de GNU/Linux, esta es una de ellas:

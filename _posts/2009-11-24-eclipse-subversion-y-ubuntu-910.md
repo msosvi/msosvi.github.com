@@ -2,7 +2,6 @@
 layout: post
 title: "Eclipse, Subversion y Ubuntu 9.10."
 date: 2009-11-24
-comments: false
 tags:
  - Subclipse
  - Eclipse

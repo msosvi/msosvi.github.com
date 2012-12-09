@@ -2,9 +2,8 @@
 layout: post
 title: "Extraer el audio de un DVD"
 date: 2010-03-21
-comments: false
 tags:
- - transcode
+ - Shell
  - GNU/Linux
 ---
 

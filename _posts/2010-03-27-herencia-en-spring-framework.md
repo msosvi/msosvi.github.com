@@ -2,7 +2,6 @@
 layout: post
 title: "Herencia en Spring Framework"
 date: 2010-03-27
-comments: false
 tags:
  - Spring
 ---

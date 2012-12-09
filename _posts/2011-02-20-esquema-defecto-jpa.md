@@ -2,12 +2,11 @@
 layout: post
 title: "Esquema por defecto en JPA"
 date: 2011-02-20
-comments: false
 tags:
  - JPA
 ---
 
-Para configurar, al usar JPA, el esquema de la base de datos por defecto, utilizo el siguiente fichero orm.xml (object relational mappingXML file):
+Para configurar, al usar JPA, el esquema de la base de datos por defecto, utilizo el siguiente fichero orm.xml (object relational mapping XML file):
 
 {% highlight xml %}
 <entity-mappings xmlns="http://java.sun.com/xml/ns/persistence/orm"

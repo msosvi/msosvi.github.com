@@ -2,9 +2,9 @@
 layout: post
 title: "Microsoft Windows, sistema operativo de los contenedores de basura"
 date: 2010-11-27
-comments: false
 tags:
  - Ficción
+ - Windows
 ---
 
 Por lo menos en la serie de ficción 

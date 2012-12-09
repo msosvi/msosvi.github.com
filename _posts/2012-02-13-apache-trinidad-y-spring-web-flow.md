@@ -2,7 +2,6 @@
 layout: post
 title: "Apache Trinidad y Spring Web Flow"
 date: 2012-02-13
-comments: false
 tags:
  - Apache Trinidad
  - Spring Web Flow

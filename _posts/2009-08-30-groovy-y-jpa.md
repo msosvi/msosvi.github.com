@@ -2,7 +2,6 @@
 layout: post
 title: "Groovy y JPA"
 date: 2009-08-30
-comments: false
 tags:
  - Groovy
  - JPA
