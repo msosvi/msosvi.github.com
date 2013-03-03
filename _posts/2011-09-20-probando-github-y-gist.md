@@ -10,5 +10,5 @@ Está casi todo inventado, estaba probando [GitHub](https://github.com/) para ir
 
 Con Gist es muy sencillo crear y compartir los trocitos de código. Para muestra un... gist.
 
-<script src="https://gist.github.com/1224189.js?file=orm.xml">
+<script src="https://gist.github.com/1224189.js">
 </script>
