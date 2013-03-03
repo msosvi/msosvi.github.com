@@ -1,158 +1,55 @@
-@CHARSET "UTF-8";
+@highlight_color: #F20021;
 
 body {
     font-family: 'Georgia',serif;
     font-size: 18px;
 }
 
-
 a:link {
-    color: #F20021;
+    color: @highlight_color;
     text-decoration: none;
 }
+
 a:visited {
-    color: #F20021;
+    color: @highlight_color;
     text-decoration: none;
 }
+
 a:hover {
     text-decoration: underline;
 }
+
 a img {
     border-width: 0;
 }
 
-p{
+p {
 	line-height: 26px;
+
+	code {
+        background-clip: padding-box;
+        background-color: #F8F8F8;
+        border: 1px solid #CCCCCC;
+        border-radius: 3px 3px 3px 3px;
+        margin: 0 2px;
+        padding: 2px 5px;
+        white-space: nowrap;
+        font-size: 0.8em;
+    }
 }
+
+
 
 h1, h2, h3, h4, h5 , h6 {
 	font-family: 'Droid Serif','Georgia';
 }
 
-q{
+q {
 	font-style:italic;
 }
 
-#header{
-	padding:10px 20px;
-}
 
-
-#header a {
-	color:black;
-	text-decoration: none;
-}
-
-#header .title{
-	margin-top:-10px;
-}
-
-#header .title h1{
-	font-size: 55px;
-	margin-bottom: -20px; 
-}
-
-#header .title code{
-	font-size:1em;
-}
-
-#post, #page{
-	padding: 0 20px;
-}
-
-.post-title, .page-title {
-	margin:5px 0;
-}
-
-.post-title a , .page-title a{
-	color:black;
-}
-
-
-.post-info{
-    color: #666666;
-    margin: 10px;
-    font-size: 0.85em;
-}
-
-.post-content blockquote{
-	font-style:italic;
-	padding-left:10px;
-	border-left:2px solid #666666;
-	color:#3E3636;
-}
-
-.post-content .autor-cita{
-	text-align: right;
-	color:#3E3636;
-}
-
-#foot {
-    background-color: #ffebeb; /*#b27373*/ 
-    color: #3E3636;
-    padding:0.5em 20px;    
-}
-
-.pagination {
-	text-align:center;
-}
-
-.backToTop{
-	float:right;
-}
-
-
-#footer {
-    background-color: #3e3636;/*rgba(21, 25, 25, 0.8)*/;
-    color: rgb(250, 250, 250);
-    padding-bottom: 1.625em;
-    padding-left:20px;
-    padding-right:20px;
-}
-
-#footer .tags{
-    padding-left:20px;
-}
-
-.profile-img {
-    float: left;
-    margin: 0 5px 5px 0;
-}
-
-
-#tag-cloud a{
-	color: rgb(250, 250, 250);
-}
-
-#tag-cloud a:hover{
-	color: red;
-}
-
-#tag-cloud .tag{
-	margin: 5px; 
-	white-space: nowrap;
-}
-
-
-.licence{
-	float: right;
-	font-weight:bold;
-}
-
-
-p code {
-    background-clip: padding-box;
-    background-color: #F8F8F8;
-    border: 1px solid #CCCCCC;
-    border-radius: 3px 3px 3px 3px;
-    margin: 0 2px;
-    padding: 2px 5px;
-    white-space: nowrap;
-    font-size: 0.8em;
-}
-
-
-pre {
+pre:not(.line-pre) {
     background-clip: padding-box;
     background-color: #F8F8F8;
     border: 1px solid #CCCCCC;
@@ -161,20 +58,138 @@ pre {
     margin-right: 0;
     margin-bottom: 1.625em;
     overflow: auto;
-    padding: 1em; 
+    padding: 1em;
     font-family: "Bitstream Vera Sans Mono","Courier New",Courier,monospace;
     font-size: 16px;
 	line-height: 23px;
 }
 
 
-.gist .gist-file {
-    border: 1px solid #CCCCCC;
-    border-radius: 3px 3px 3px 3px;
+#header {
+	padding:10px 20px;
+
+    a {
+	    color:black;
+    	text-decoration: none;
+    }
+
+    .title{
+        margin-top:-10px;
+
+        h1 {
+            font-size: 55px;
+           	margin-bottom: -20px;
+        }
+
+        code {
+    	    font-size:1em;
+        }
+    }
 }
 
-.gist .gist-data {
-	background-clip: padding-box;
-	background-color: #F8F8F8 !important;
-	padding: 1em;
+#post, #page {
+	padding: 0 20px;
 }
+
+.post-title, .page-title {
+	margin:5px 0;
+
+    a {
+    	color:black;
+    }
+
+}
+
+
+.post-info {
+    color: #666666;
+    margin: 10px;
+    font-size: 0.85em;
+}
+
+.post-content {
+     blockquote {
+    	font-style:italic;
+    	padding-left:10px;
+    	border-left:2px solid #666666;
+    	color:#3E3636;
+    }
+
+    .autor-cita{
+    	text-align: right;
+    	color:#3E3636;
+    }
+}
+
+#foot {
+    background-color: #ffebeb;
+    color: #3E3636;
+    padding: 0.5em 20px;
+
+
+    .pagination {
+    	text-align:center;
+    }
+
+    .backToTop {
+    	float:right;
+    }
+
+}
+
+
+#footer {
+    background-color: #3e3636;
+    color: rgb(250, 250, 250);
+    padding-bottom: 1.625em;
+    padding-left:20px;
+    padding-right:20px;
+
+
+    #profile{
+        .profile-img {
+            float: left;
+            margin: 0 5px 5px 0;
+        }
+    }
+
+    #tags{
+        padding-left:20px;
+    }
+
+    .licence{
+    	float: right;
+    	font-weight:bold;
+    }
+
+}
+
+#tag-cloud{
+    a{
+        color: rgb(250, 250, 250);
+    }
+
+    a:hover{
+    	color: red;
+    }
+
+    .tag{
+    	margin: 5px;
+    	white-space: nowrap;
+    }
+}
+
+
+.gist {
+    .gist-file {
+        border: 1px solid #CCCCCC;
+        border-radius: 3px 3px 3px 3px;
+    }
+
+    .gist-data {
+        font-size: 90% !important;
+    	background-clip: padding-box;
+    	background-color: #F8F8F8 !important;
+    	padding: 1em;
+    }
+} 
