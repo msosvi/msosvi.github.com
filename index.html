@@ -26,11 +26,11 @@ title:
 				<div class="post-content">
 					{{ post.content }}
 				</div><!-- post-content -->
-				 
-	</div><!-- post -->  
-      
+
+                {% unless forloop.last %}
+                    <div class="separator"></div>
+                {% endunless %}
+	</div><!-- post -->
+
   {% endfor %}
 </div>
-
-
-
