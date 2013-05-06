@@ -1,12 +1,12 @@
 <div id="post" >
-	<div class="grid">
+	<div class="grid grid-pad">
 		<div class="post col-1-1">
-				
+
 			<h1 class="post-title">{{ page.title }}</h1>
-				
+
 			<p class="post-info">
 				<span class="post-date-publish">
-					Publicado el {{ page.date | date: '%d/%m/%Y' }}   
+					Publicado el {{ page.date | date: '%d/%m/%Y' }}
 				</span>
 				<span> - </span>
 				<span class="post-tags">
@@ -14,24 +14,22 @@
 					Etiquetas:
     					{% for tag in page.tags %}<a href="{{ BASE_PATH }}{{ site.JB.tags_path }}#{{ tag }}-ref">{{ tag }}</a>{% unless forloop.last %}, {% endunless %}{% endfor %}.
   					{% endif %}
-				</span>	
+				</span>
 			</p>
-				
+
 			<div class="post-content">
 				{{ content }}
 			</div><!-- post-content -->
+			{% include JB/comments %}
 		</div>
-		
-    	{% include JB/comments %}
-    	
 	</div>
 </div><!-- post -->
-	
-	
+
+
 <div id="foot">
 	<div class="grid">
 		<div class="col-10-12">
-			<p class="pagination">	
+			<p class="pagination">
 				{% if page.previous %}
 				<span class="prev"><a rel="prev"  href="{{ page.previous.url }}" title="View {{ page.previous.title }}">&laquo; {{ page.previous.title }}</a></span>
 				{% endif %}
@@ -43,14 +41,13 @@
 				{% endif %}
 			</p>
 		</div>
-				
+
 		<div class="col-2-12">
 			<p class="backToTop">
 				<a href="{{ site.JB.archive_path }}">Archivo</a>
 				<span class="pipe">|</span>
-				<a href="#page">Subir</a>
+				<a href="#post">Subir</a>
 			</p>
 		</div>
 	</div>
 </div> <!-- foot -->
-	
