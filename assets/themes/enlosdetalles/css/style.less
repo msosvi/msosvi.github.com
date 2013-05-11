@@ -81,30 +81,54 @@ pre:not(.line-pre) {
 
 
 #header {
-	padding:10px 20px;
 
     a {
 	    color:black;
     	text-decoration: none;
     }
 
+    .logo {
+        display:inline-block;
+        vertical-align:middle;
+        margin-right:10px;
+    }
+
     .title{
-        margin-top:-10px;
+        display:inline-block;
+        vertical-align:middle;
+        width:100%;
 
         h1 {
-            font-size: 55px;
-           	margin-bottom: -20px;
+            width:100%;
+            padding-bottom: 0px;
+           	margin: 0px;
         }
 
-        code {
-    	    font-size:1em;
+        p {
+          /*  width:100%; */
+            display:inline-block;
+            font-family: monospace;
+            background-clip: padding-box;
+            background-color: #F8F8F8;
+            border: 1px solid #CCCCCC;
+            border-radius: 3px 3px 3px 3px;
+            margin: 0 2px;
+            padding: 2px 5px;
+        /*    white-space: nowrap;
+
+           @media (max-width: 480px) {
+                white-space: normal !important;
+            } */
         }
+
     }
 }
 
 
 .post-title, .page-title {
 	margin:5px 0;
+    display: inline-block;
+    width:100%;
 
     a {
     	color:black;

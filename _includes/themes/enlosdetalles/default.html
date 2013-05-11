@@ -13,22 +13,30 @@
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js"></script>
 	<script src="{{ ASSET_PATH }}/js/less.js" type="text/javascript"></script>
+	<script src="{{ ASSET_PATH }}/js/jquery.fittext.js" type="text/javascript"></script>
+
+	<script type="text/javascript">
+	    jQuery(document).ready(function($) {
+              $("#site_title").fitText(1, { minFontSize: '20px', maxFontSize: '70px' });
+               $("#site_lema").fitText(3, { maxFontSize: '22px' });
+	    });
+	</script>
 </head>
 
 <body>
 
-<div id="header">
-
-		<div class="grid">
- 			<div class="logo col-2-12">
+    <div id="header" class="grid grid-pad">
+		<div class="col-1-1" >
+ 			<span class="logo">
  				<a href="/">
 					<img src="{{ ASSET_PATH }}/img/logo.png"  alt="Logo En Los Detalles..." />
 				</a>
-			</div>
-			<div class="title col-10-12">
-					<h1 ><a href="/">{{site.title}}</a></h1>
-					<p><code>-m "Un blog sobre desarrollo de software y demás tics."</code></p>
-			</div>
+			</span>
+
+    	    <span class="title">
+				<h1 id="site_title"><a href="/">{{site.title}}</a></h1>
+				<p id="site_lema">-m "Un blog sobre desarrollo de software y demás tics."</p>
+    		</span>
 		</div>
 	</div>
 
@@ -73,5 +81,7 @@
 
 
   {% include JB/analytics %}
+
+
 </body>
 </html>
