@@ -29,7 +29,6 @@ p {
 	    font-size: 1.125em;
     }
 
-
 	line-height: 1.4em;
 
 	code {
@@ -87,43 +86,169 @@ pre:not(.line-pre) {
     	text-decoration: none;
     }
 
-    .logo {
+    #logo {
         display:inline-block;
-        vertical-align:middle;
-        margin-right:10px;
     }
 
-    .title{
-        display:inline-block;
-        vertical-align:middle;
-        width:100%;
 
-        h1 {
-            width:100%;
-            padding-bottom: 0px;
+    #title{
+        display:inline-block;
+        #site_title {
+            padding: 0px;
            	margin: 0px;
         }
 
         p {
-          /*  width:100%; */
-            display:inline-block;
-            font-family: monospace;
-            background-clip: padding-box;
-            background-color: #F8F8F8;
-            border: 1px solid #CCCCCC;
-            border-radius: 3px 3px 3px 3px;
-            margin: 0 2px;
-            padding: 2px 5px;
-        /*    white-space: nowrap;
+            margin: 0;
+            padding: 0;
 
-           @media (max-width: 480px) {
-                white-space: normal !important;
-            } */
+            code{
+             margin:0;
+            }
+        }
+    }
+
+}
+
+
+@media (min-width: 769px) {
+    #header {
+
+        .wrapper{
+            margin: 0 auto;
+            max-width: 1140px;
+            min-width: 755px;
+            overflow: hidden;
+            width: 100%;
+            padding: 20px 0 0 20px;
         }
 
+        #logo {
+            vertical-align:middle;
+            margin-right:10px;
+
+            img {
+                width:155px;
+             }
+        }
+
+
+        #title {
+
+            vertical-align:middle;
+
+            #site_title {
+               	font-size:55px;
+            }
+
+            #site_motto{
+                 font-size: 20px;
+            }
+
+
+        }
     }
 }
 
+
+@media (min-width: 481px) and (max-width: 768px) {
+    #header {
+
+        .wrapper{
+            margin: 0 auto;
+            max-width: 1140px;
+            min-width: 755px;
+            overflow: hidden;
+            width: 100%;
+            padding: 20px 0 0 20px;
+        }
+
+        #logo {
+            vertical-align:middle;
+            margin-right:10px;
+
+            img {
+                width:126px;
+             }
+        }
+
+
+        #title{
+            vertical-align:middle;
+
+            #site_title {
+               	font-size:45px;
+            }
+
+            #site_motto{
+               font-size: 18px;
+            }
+        }
+    }
+}
+
+
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+    #header {
+
+        height: 56px;
+        left: 0;
+        position: fixed;
+        top: 0;
+        width:480px;
+
+        background-color: white;
+
+        .wrapper{
+            height: 55px;
+            padding:3px;
+            background-color: #FBFBFB;
+            border-bottom: 1px solid #CCCCCC;
+        }
+
+
+        #logo {
+            vertical-align:top;
+
+            img {
+                height:49px;
+                margin-right: 6px;
+             }
+
+        }
+
+        #title {
+            vertical-align:middle;
+
+            #site_title {
+               	font-size:24px;
+            }
+
+            #site_motto {
+                font-size: 10px;
+            }
+
+        }
+    }
+
+    #content {
+        margin-top:30px;
+    }
+}
+
+@media (max-width: 425px) {
+  #site_motto code:before {
+    content: "Un blog sobre desarrollo de software";
+ }
+}
+
+@media (min-width: 426px) {
+ #site_motto code:before {
+    content: "-m \"Un blog sobre desarrollo de software y demás tics.\"";
+ }
+}
 
 .post-title, .page-title {
 	margin:5px 0;
@@ -143,7 +268,6 @@ pre:not(.line-pre) {
     @media (max-width: 480px) {
 	    font-size: 1.5em;
     }
-
 
 
     a {
