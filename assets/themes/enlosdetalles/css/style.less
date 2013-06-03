@@ -25,11 +25,8 @@ a img {
 
 p {
 
-    @media (min-width: 481px) {
-	    font-size: 1.125em;
-    }
-
-	line-height: 1.4em;
+    font-size: 1.125em;
+	line-height: 1.5em;
 
 	code {
         background-clip: padding-box;
@@ -65,16 +62,7 @@ pre:not(.line-pre) {
     overflow: auto;
     padding: 1em;
     font-family: "Bitstream Vera Sans Mono","Courier New",Courier,monospace;
-
-    @media (max-width: 480px) {
-	    font-size: 0.9em;
-    }
-
-    @media (min-width: 481px) {
-	    font-size: 1em;
-    }
-
-
+    font-size: 1em;
 	line-height: 1.4em;
 }
 
@@ -111,7 +99,12 @@ pre:not(.line-pre) {
 }
 
 
-@media (min-width: 769px) {
+@media (min-width: 980px) {
+
+    .post-title, .page-title {
+        font-size: 1.9em;
+    }
+
     #header {
 
         .wrapper{
@@ -151,7 +144,13 @@ pre:not(.line-pre) {
 }
 
 
-@media (min-width: 481px) and (max-width: 768px) {
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+
+    .post-title, .page-title {
+        font-size: 1.6em;
+    }
+
     #header {
 
         .wrapper{
@@ -188,16 +187,28 @@ pre:not(.line-pre) {
 }
 
 
-
 /* Landscape phones and down */
-@media (max-width: 480px) {
+@media (max-width: 767px){
+
+    p {
+	    font-size: 1em;
+    }
+
+    .post-title, .page-title {
+        font-size: 1.5em;
+    }
+
+    pre:not(.line-pre) {
+        font-size: 0.9em;
+    }
+
     #header {
 
         height: 56px;
         left: 0;
         position: fixed;
         top: 0;
-        width:480px;
+        width:767px;
 
         background-color: white;
 
@@ -211,10 +222,10 @@ pre:not(.line-pre) {
 
         #logo {
             vertical-align:top;
+            margin-right: 6px;
 
             img {
                 height:49px;
-                margin-right: 6px;
              }
 
         }
@@ -250,25 +261,11 @@ pre:not(.line-pre) {
  }
 }
 
+
 .post-title, .page-title {
 	margin:5px 0;
     display: inline-block;
     width:100%;
-
-
-    @media (min-width: 801px) {
-	    font-size: 1.9em;
-    }
-
-    @media (max-width: 800px) {
-	    font-size: 1.6em;
-    }
-
-
-    @media (max-width: 480px) {
-	    font-size: 1.5em;
-    }
-
 
     a {
     	color:black;
