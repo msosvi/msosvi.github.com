@@ -104,12 +104,8 @@ pre:not(.line-pre) {
 }
 
 
-@media (min-width: 980px) {
-
-    .post-title, .page-title {
-        font-size: 1.9em;
-    }
-
+/*Estilos comunes para el tamaño mediano y grande*/
+@media (min-width: 768px){
     #header {
 
         .wrapper{
@@ -125,18 +121,35 @@ pre:not(.line-pre) {
             vertical-align:middle;
             margin-right:10px;
 
-              a {
+            a {
                 background-image: url("../img/large_logo.png");
-                width:155px;
-                height:146px;
             }
         }
 
 
         #title {
-
             vertical-align:middle;
+        }
+    }
+}
 
+
+@media (min-width: 980px) {
+
+    .post-title, .page-title {
+        font-size: 1.9em;
+    }
+
+    #header {
+        #logo {
+
+            a {
+                width:155px;
+                height:146px;
+            }
+        }
+
+        #title {
             #site_title {
                	font-size:55px;
             }
@@ -144,8 +157,6 @@ pre:not(.line-pre) {
             #site_motto{
                  font-size: 20px;
             }
-
-
         }
     }
 }
@@ -159,22 +170,10 @@ pre:not(.line-pre) {
     }
 
     #header {
-
-        .wrapper{
-            margin: 0 auto;
-            max-width: 1140px;
-            min-width: 755px;
-            overflow: hidden;
-            width: 100%;
-            padding: 20px 0 0 20px;
-        }
-
         #logo {
-            vertical-align:middle;
-            margin-right:10px;
 
-               a {
-                background-image: url("../img/medium_logo.png");
+            a {
+                background-size:126px 119px;
                 width:126px;
                 height:119px;
             }
@@ -182,8 +181,6 @@ pre:not(.line-pre) {
 
 
         #title{
-            vertical-align:middle;
-
             #site_title {
                	font-size:45px;
             }
