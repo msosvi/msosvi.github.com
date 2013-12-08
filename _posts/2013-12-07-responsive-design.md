@@ -13,10 +13,9 @@ La principal herramienta para crear sitios web adaptativos son las *media querie
 
 Como siempre, la mejor forma de aprender es haciendo, así que he modificado el diseño del blog para que al verlo en un teléfono móvil tenga esta pinta:
 
-<div style="text-align:center" markdown="1">
-    ![](/assets/img/responsive_design.png)
+<div markdown="1">
+    [![](/assets/img/responsive_design.png)](/assets/img/responsive_design.png)
 </div>
-
 
 Otros recursos:
 
