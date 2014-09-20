@@ -81,13 +81,13 @@ Partiendo de [NumPadDecSeperator](http://nuyensgert.be/projects/numpad-decimal-s
 		}
  		return true;
 	}
-{% endhighlight%}
+{% endhighlight %}
 
 Para usar las funciones configuro el campo de la siguiente forma:
 
 {% highlight html linenos %}
 	<input type="text"  onkeydown="setLastkeyCode(this,event);printKeyCode(this);"
 		onkeypress="return changeNumericPadPeriod(this,event);" />﻿
-{% endhighlight%}
+{% endhighlight %}
 
 [Pruebalo tú mismo.](http://dl.dropbox.com/u/302696/blog_files/numericpadperiod/NumericPadPeriod/inicio.html)
