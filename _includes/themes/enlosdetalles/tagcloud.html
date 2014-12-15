@@ -3,7 +3,7 @@ jekyll-tagcloud
 
 Copyright 2012 Miguel Angel Sosvilla Luis <msosvi@gmail.com>
 @license http://www.gnu.org/licenses/gpl-2.0.html
- 
+
 This work is based on jekyll-tagcloud developed by enrmarc <enrmarc@gmail.com>
 
 This program is free software: you can redistribute it and/or modify
@@ -20,12 +20,11 @@ You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 {% endcomment %}
- 
+
 <div id="tag-cloud">
     {% for tag in site.tags %}
-        <a class="tag tag-{{ forloop.index  }}"  
-        	href="{{ BASE_PATH }}{{ site.JB.tags_path }}#{{ tag[0] }}-ref">{{ tag[0] }}
-        </a>
+        <a class="tag tag-{{ forloop.index  }}"
+        	href="{{ BASE_PATH }}{{ site.JB.tags_path }}#{{ tag[0] }}-ref">{{ tag[0] }}</a>
     {% endfor %}
 </div>
 
@@ -38,13 +37,13 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 		{% assign max = 1.0 %}
 		{% for tag in site.tags %}{% if tag[1].size > max %}
-			{% assign max = tag[1].size %} 
+			{% assign max = tag[1].size %}
 		{% endif %}	{% endfor %}
-            
+
 		{% for tag in site.tags %}
 			size = (Math.log({{ tag[1].size }}) / Math.log({{ max }})) * diffFont + minFont;
 			$("#tag-cloud .tag-{{ forloop.index  }}").css("font-size", size + "px");
 		{% endfor %}
-	
+
 	});
 </script>
